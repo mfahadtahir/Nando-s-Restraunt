@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;  
+}
+/* .App {
+  scroll-behavior: smooth;
+} */
+
+
+.fancyNow{
+  background-color: white;
+  color: black;
+}
