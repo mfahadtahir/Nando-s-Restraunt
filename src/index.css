@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.slick-slider .slick-list {
+  transform: none;
+}
+.slick-prev, .slick-next {
+   z-index: 1; 
+  } 
+.slick-prev::before, .slick-next::before{
+  color: black !important;
+}
+
+.slick-slide * {
+  outline: none !important;
+}
+
+.dark-slider{
+  background : rgb(0,0,0,0.8); 
+  color: white;
+}
+.light-slider{
+  background : rgb(239,239,239,0.8);
+  box-shadow: none; 
+  color: black;
+}
+.verticleCards{
+  width: 90%;
+  height: 350px;
+  padding: 10px; 
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+.horizontalCards {
+  padding: 10px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aboutUsText{
+  overflow: hidden;
+}
