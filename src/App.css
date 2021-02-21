@@ -1,7 +1,48 @@
 html {
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 /* .App {
   scroll-behavior: smooth;
 } */
 
+.card {
+  box-shadow: 0 5px 6px rgba(57, 73, 76, 0.35);
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@keyframes example {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: -2px;
+  }
+}
+.card:hover {
+  animation-name: example;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes headingUnderline {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.card:hover .heading-underliner {
+  height: 5px;
+  border: none;
+  text-align: left;
+  background: pink;
+  animation-name: headingUnderline;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
